@@ -33,7 +33,9 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 
 - **preprocessing.py**: The preprocessing does just image resizing, just in case anyone wants to use a smaller image size due                         to memory issues or for other datasets.
 
-- **predict_segmentation.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with                                  these outputs.
+- **predict_segmentation_GPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow-gpu is installed.**
+
+- **predict_segmentation_CPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow is installed.**
 
 - **get_class_weights.py**: The file to obtain either the median frequency balancing class weights, or the custom ENet                                   function class weights.
 - **train.sh**: Example training script to train the different variations of the model.
