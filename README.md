@@ -36,16 +36,16 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 
 - **predict_segmentation_GPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow-gpu is installed.**
 
-- **【Original】predict_segmentation_CPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow is installed.**
+- **【My own deliverables】 predict_segmentation_CPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow is installed.**
 
 - **get_class_weights.py**: The file to obtain either the median frequency balancing class weights, or the custom ENet                                   function class weights.
 - **train.sh**: Example training script to train the different variations of the model.
 
 - **test.sh**: Example testing script to test the different variants you trained.
 
-- **【Original】slim_infer.py**: Eliminate useless processing unnecessary for detection and compress the ckpt file.
+- **【My own deliverables】 slim_infer.py**: Eliminate useless processing unnecessary for detection and compress the ckpt file.
 
-- **【Original】freezepbscript.txt**: A sample script for generating Freeze Graph.
+- **【My own deliverables】 freezepbscript.txt**: A sample script for generating Freeze Graph.
 
 #### Folders
 
