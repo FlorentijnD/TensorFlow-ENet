@@ -36,7 +36,7 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 
 - **predict_segmentation_GPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow-gpu is installed.**
 
-- **【My own deliverables】 predict_segmentation_CPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow-CPU is installed.**
+- **【My own deliverables】 predict_segmentation_CPU.py**: Obtains the segmentation output for visualization purposes. You can create your own gif with these outputs. **It is used in the environment where Tensorflow-cpu is installed.**
 
 - **get_class_weights.py**: The file to obtain either the median frequency balancing class weights, or the custom ENet                                   function class weights.
 - **train.sh**: Example training script to train the different variations of the model.
