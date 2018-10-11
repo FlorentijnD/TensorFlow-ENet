@@ -45,6 +45,8 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 
 - **slim_infer.py**: Eliminate useless processing unnecessary for detection and compress the ckpt file.
 
+- **freezepbscript.txt**: A sample script for generating Freeze Graph.
+
 #### Folders
 
 - **dataset**: Contains 6 folders that holds the original train-val-test images and their corresponding ground truth annotations.
