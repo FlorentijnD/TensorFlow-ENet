@@ -42,6 +42,8 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 
 - **test.sh** Example testing script to test the different variants you trained.
 
+- **slim_infer.py** Eliminate useless processing unnecessary for detection and compress the ckpt file.
+
 #### Folders
 
 - **dataset**: Contains 6 folders that holds the original train-val-test images and their corresponding ground truth annotations.
