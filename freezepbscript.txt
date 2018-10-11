@@ -1,0 +1,9 @@
+python freeze_graph.py \
+--input_graph=checkpoint/semanticsegmentation_enet.pbtxt \
+--input_checkpoint=checkpoint/modelfinal.ckpt-13800 \
+--output_graph=checkpoint/semanticsegmentation_enet.pb \
+--output_node_names=ENet/fullconv/BiasAdd,ENet/logits_to_softmax \
+--input_binary=False
+
+
+
