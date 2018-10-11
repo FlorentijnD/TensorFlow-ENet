@@ -3,6 +3,7 @@
 **[October 12, 2018]**  
 **I added a correspondence to CPU mode and Freeze Graph to kwotsin/TensorFlow-ENet.**  
 **https://github.com/kwotsin/TensorFlow-ENet.git**
+**I confirmed the operation with Tensorflow 1.11.0 and Tensorflow-gpu 1.11.0.**
 **====================================================================================**
 <br><br>
 TensorFlow implementation of [**ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation**](https://arxiv.org/pdf/1606.02147.pdf).
