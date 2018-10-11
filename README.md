@@ -40,9 +40,9 @@ Execute `tensorboard --logdir=log` on your root directory to monitor your traini
 - **get_class_weights.py**: The file to obtain either the median frequency balancing class weights, or the custom ENet                                   function class weights.
 - **train.sh**: Example training script to train the different variations of the model.
 
-- **test.sh** Example testing script to test the different variants you trained.
+- **test.sh**: Example testing script to test the different variants you trained.
 
-- **slim_infer.py** Eliminate useless processing unnecessary for detection and compress the ckpt file.
+- **slim_infer.py**: Eliminate useless processing unnecessary for detection and compress the ckpt file.
 
 #### Folders
 
