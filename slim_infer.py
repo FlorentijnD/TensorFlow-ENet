@@ -7,7 +7,7 @@ def main():
     graph = tf.Graph()
     with graph.as_default():
 
-        with slim.arg_scope(ENet_arg_scope(weight_decay=2e-4)):
+        with slim.arg_scope(ENet_arg_scope()):
             inputs = tf.placeholder(tf.float32, [None, 360, 480, 3], name="input") 
             logits, probabilities = ENet(inputs,
                                          12,
