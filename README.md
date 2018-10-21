@@ -2,7 +2,7 @@
 **==============================================================================**  
 **[October 12, 2018]**  
 **I added a correspondence to CPU mode and Freeze Graph to kwotsin/TensorFlow-ENet.**  
-**And, I added a correspondence to RaspberryPi.**
+**And, I added a correspondence to RaspberryPi.**  
 **https://github.com/kwotsin/TensorFlow-ENet.git**  
 **I confirmed the operation with Tensorflow 1.11.0 and Tensorflow-gpu 1.11.0.**  
 **==============================================================================**
