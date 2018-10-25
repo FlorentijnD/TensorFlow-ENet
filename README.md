@@ -5,6 +5,12 @@
 **And, I added a correspondence to RaspberryPi.**  
 **https://github.com/kwotsin/TensorFlow-ENet.git**  
 **I confirmed the operation with Tensorflow 1.11.0 and Tensorflow-gpu 1.11.0.**  
+**Bug fix for RaspberryPi prebuilt Tensorflow binary. [PINTO0309 - Tensorflow-bin - Github](https://github.com/PINTO0309/Tensorflow-bin.git)**  
+  
+**Resolved Issues**  
+- `undefined symbol: _ZN6tflite12tensor_utils39NeonMatrixBatchVectorMultiplyAccumulateEPKaiiS2_PKfiPfi`
+- `Bus Error`  
+
 **==============================================================================**
 <br><br>
 TensorFlow implementation of [**ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation**](https://arxiv.org/pdf/1606.02147.pdf).
