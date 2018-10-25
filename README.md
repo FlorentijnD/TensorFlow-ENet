@@ -7,7 +7,7 @@
 **I confirmed the operation with Tensorflow 1.11.0 and Tensorflow-gpu 1.11.0.**  
 **Bug fix for RaspberryPi prebuilt Tensorflow binary. [PINTO0309 - Tensorflow-bin - Github](https://github.com/PINTO0309/Tensorflow-bin.git)**  
   
-**Resolved Issues**  
+**Resolved Tensorflow's Issues**  
 - `undefined symbol: _ZN6tflite12tensor_utils39NeonMatrixBatchVectorMultiplyAccumulateEPKaiiS2_PKfiPfi`
 - `Bus Error`  
 
