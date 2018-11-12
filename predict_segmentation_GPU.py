@@ -10,7 +10,7 @@ slim = tf.contrib.slim
 image_dir = './dataset/test/'
 images_list = sorted([os.path.join(image_dir, file) for file in os.listdir(image_dir) if file.endswith('.png')])
 
-checkpoint_dir = "./checkpoint_mfb"
+checkpoint_dir = "./checkpoint"
 checkpoint = tf.train.latest_checkpoint(checkpoint_dir)
 
 num_initial_blocks = 1
