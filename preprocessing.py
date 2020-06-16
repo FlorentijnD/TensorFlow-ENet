@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-def preprocess(image, annotation=None, height=360, width=480):
+def preprocess(image, annotation=None, height=480, width=640):
     '''
     Performs preprocessing for one set of image and annotation for feeding into network.
     NO scaling of any sort will be done as per original paper.

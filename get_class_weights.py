@@ -6,7 +6,7 @@ import ast
 image_dir = "./dataset/trainannot"
 image_files = [os.path.join(image_dir, file) for file in os.listdir(image_dir) if file.endswith('.png')]
 
-def ENet_weighing(image_files=image_files, num_classes=12):
+def ENet_weighing(image_files=image_files, num_classes=5):
     '''
     The custom class weighing function as seen in the ENet paper.
 
@@ -41,11 +41,11 @@ def ENet_weighing(image_files=image_files, num_classes=12):
         class_weights.append(class_weight)
 
     #Set the last class_weight to 0.0
-    class_weights[-1] = 0.0
+    class_weights[0] = 0.0
 
     return class_weights
 
-def median_frequency_balancing(image_files=image_files, num_classes=12):
+def median_frequency_balancing(image_files=image_files, num_classes=5):
     '''
     Perform median frequency balancing on the image files, given by the formula:
     f = Median_freq_c / total_freq_c
@@ -94,10 +94,10 @@ def median_frequency_balancing(image_files=image_files, num_classes=12):
         class_weights.append(median_frequency_balanced)
 
     #Set the last class_weight to 0.0 as it's the background class
-    class_weights[-1] = 0.0
+    class_weights[0] = 0.0
 
     return class_weights
 
 if __name__ == "__main__":
-    median_frequency_balancing(image_files, num_classes=12)
-    ENet_weighing(image_files, num_classes=12)
+    median_frequency_balancing(image_files, num_classes=5)
+    ENet_weighing(image_files, num_classes=5)
